@@ -101,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="141">
+              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -184,8 +184,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="507" />
-    <option name="y" value="31" />
+    <option name="x" value="540" />
+    <option name="y" value="63" />
     <option name="width" value="1535" />
     <option name="height" value="807" />
   </component>
@@ -274,16 +274,15 @@
       <option name="presentableId" value="Default" />
       <updated>1545834393968</updated>
       <workItem from="1545834395495" duration="934000" />
-      <workItem from="1545870638766" duration="13082000" />
+      <workItem from="1545870638766" duration="13344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14016000" />
+    <option name="totallyTimeSpent" value="14278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="507" y="31" width="1535" height="807" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.17437252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -300,7 +299,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33986014" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.620979" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -419,8 +418,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="141">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
