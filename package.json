@@ -5,6 +5,9 @@
   "dependencies": {
     "bip39": "^2.5.0",
     "ethers": "^4.0.20",
+    "file-saver": "^2.0.0",
+    "json-format": "^1.0.1",
+    "pubsub-js": "^1.7.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.2",
