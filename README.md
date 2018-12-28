@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 开启ganache-cli
 
-## Available Scripts
+```bash
+ganache-cli -m 助记词
+```
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 修改provider
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+wallet.js
 
-### `npm test`
+```
+state = {
+    wallets: [],// 支持多账户，默认第0个
+    selectWallet: 0,
+    provider: "http://127.0.0.1:8545", //环境
+    }
+```
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# npm start
 
-### `npm run build`
+```
+npm run start
+```
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 启动 geth
 
-### `npm run eject`
+```
+geth attach your provider
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+查看账户
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+> eth.accounts
+["0xfef3d415f66464c3b38e10fd5f31edbead7be44b", "0xfc26f518d2f7091667dbdd81ee04d1f17d122359", "0x5e7363aa3c0669083a554dde5ed548a8ec90ff12", "0x57060a8a16bff2615769282eb83d1b50891f04a9", "0xc1f109c747e70bbc85371bcb6fbdc8fe23219da9", "0x3d25841411dd7917c123d980f4dd33cad101cc31", "0x9b477be361d60597e24dd7838d29f706396a3fa1", "0x8adffcabe036474de3a6d6f513bfd6df19fbcc1f", "0x2394c966264c3794247136637e0dc9924dfad3d7", "0xbf513ae069d7a58eb4d0f8c6e17402dbe2cc1bee"]
+> eth.getBalance(eth.accounts[0])
+100000000000000000000
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
